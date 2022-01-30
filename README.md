@@ -1,1 +1,1 @@
-# odin-recipes
+# odin-dog-recipes
