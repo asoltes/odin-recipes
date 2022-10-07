@@ -33,7 +33,7 @@ article p {
 
 footer {
     background-color: #f56;
-    position: relative;
+    position: fixed;
     padding: 2px;
     bottom: 0;
     left: 0;
