@@ -68,7 +68,7 @@ footer p {
 }
 
 img {
-    width:  500px;
+    width:  480px;
     height: 500px;
     object-fit: cover;
     margin-top: 40px;
@@ -76,6 +76,25 @@ img {
 
 }
 
+img:hover {
+    position: relative;
+    top: -5px;
+}
+
+a {
+    color: #262626;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#138D75;
+    text-decoration: underline;
+}
+
 p::selection {
     background-color: #feb614;
+}
+
+.backhome h3 {
+    text-align: center;
 }
