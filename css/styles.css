@@ -99,15 +99,3 @@ p::selection {
 .backhome h3 {
     text-align: center;
 }
-
-/* responsive styles */
-
-@media screen and (min-width: 480px) {
-    img {
-        position: relative;
-        width:  380px;
-        height: 400px;
-        margin-top: 40px;
-        float: left;
-    }
-  }
