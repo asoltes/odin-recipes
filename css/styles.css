@@ -25,6 +25,7 @@ header h1 {
 }
 body {
     background-color:#f4f4f4;;
+    box-sizing: border-box;
 }
 article {
     margin-top: 192px;
