@@ -102,13 +102,12 @@ p::selection {
 
 /* responsive styles */
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
- img {
-    width: fit-content;
-    height: fit-content;
- }
-}
+@media screen and (min-width: 480px) {
+    img {
+        position: relative;
+        width:  380px;
+        height: 400px;
+        margin-top: 40px;
+        float: left;
+    }
+  }
