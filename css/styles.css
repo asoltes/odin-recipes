@@ -4,7 +4,7 @@ html {
 }
 
 header {
-    background-color: #f36;
+    background-color: #262626;
     padding: 12px;
     position: fixed;
     width: 100%;
@@ -28,11 +28,18 @@ body {
 }
 article {
     margin-top: 192px;
+    margin-bottom: 50px;
+
 }
 
 article p {
-    padding: 8px 16px;
-    
+    text-decoration: none;
+
+}
+
+article h2 {
+    text-decoration: none;
+  
 }
 
 footer {
@@ -48,4 +55,27 @@ footer {
 
 footer p {
     text-decoration: none;
+    width: auto;
+
+}
+
+.recipes {
+    display: inline-block;
+}
+
+.recipes h2 {
+    color: #262626;
+}
+
+img {
+    width:  500px;
+    height: 500px;
+    object-fit: cover;
+    margin-top: 40px;
+    float: left;
+
+}
+
+p::selection {
+    background-color: #feb614;
 }
