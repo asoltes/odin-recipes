@@ -108,7 +108,7 @@ p::selection {
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
  img {
-    width: 250px;
-    height: 230px;
+    width: fit-content;
+    height: fit-content;
  }
 }
