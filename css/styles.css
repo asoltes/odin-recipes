@@ -61,7 +61,8 @@ footer p {
 }
 
 .recipes {
-    display: inline-block;
+    display: grid;
+
 }
 
 .recipes h2 {
@@ -69,11 +70,12 @@ footer p {
 }
 
 img {
-    width:  480px;
-    height: 500px;
-    object-fit: cover;
-    margin-top: 40px;
-    float: left;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    padding: 20px 20px;
+    height: 450px;
+    width: auto;
 
 }
 
@@ -99,3 +101,48 @@ p::selection {
 .backhome h3 {
     text-align: center;
 }
+
+.single-recipes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    gap: 10px;
+    background-color: #eee ;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.single-recipes h1 {
+    color: #eee;
+    font-size:40px;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+.single-recipes > div {
+    background-color: #138D75 ;
+
+}
+.image-recipe img {
+    margin: auto;
+}
+
+
+.title {
+    grid-column: 1/5;
+    justify-items: center;
+    background-color: #262626;
+
+}
+
+.ingredients {
+    grid-column: span 3;
+    padding: 30px;
+}
+
+.ingredients h2 {
+    color: #eee;
+}
+
