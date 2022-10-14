@@ -1,4 +1,3 @@
-
 html {
     width: 100%;
 }
@@ -23,10 +22,13 @@ header h1 {
     border-radius: 24px;
 
 }
+
 body {
-    background-color:#f4f4f4;;
+    background-color: #f4f4f4;
+    ;
     box-sizing: border-box;
 }
+
 article {
     margin-top: 192px;
     margin-bottom: 50px;
@@ -40,7 +42,7 @@ article p {
 
 article h2 {
     text-decoration: none;
-  
+
 }
 
 footer {
@@ -90,7 +92,7 @@ a {
 }
 
 a:hover {
-    color:#138D75;
+    color: #138D75;
     text-decoration: underline;
 }
 
@@ -102,29 +104,30 @@ p::selection {
     text-align: center;
 }
 
-.single-recipes{
+.single-recipes {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: minmax(100px, auto);
     gap: 10px;
-    background-color: #eee ;
+    background-color: #eee;
     margin: auto;
     /* box-sizing: border-box; */
 }
 
 .single-recipes h1 {
     color: #eee;
-    font-size:40px;
+    font-size: 40px;
     text-align: center;
     justify-content: center;
 
 
 }
 
-.single-recipes > div {
-    background-color: #138D75 ;
+.single-recipes>div {
+    background-color: #138D75;
 
 }
+
 .image-recipe img {
     margin: auto;
 }
@@ -149,55 +152,63 @@ p::selection {
 
 
 @media only screen and (max-width: 620px) {
-    .single-recipes{
+    .single-recipes {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-auto-rows: minmax(100px, auto);
+        background-color: #eee;
         gap: 2px;
-        background-color: #eee ;
         margin: 0;
         box-sizing: content-box;
     }
-    
+
     .single-recipes h1 {
         color: #eee;
-        font-size:40px;
+        font-size: 40px;
         text-align: center;
         justify-content: center;
-    
-    
-    }
-    
-    .single-recipes > div {
-        background-color: #f6323f ;
-    
+
+
     }
 
-    
+    .single-recipes > div {
+        background-color: #2498a3;
+
+    }
+
+
     .image-recipe img {
         grid-column: 1/3;
         height: 300px;
         width: 150;
-        box-sizing: border-box;
         justify-items: center;
+
     }
-    
-    
-    .title {
+    .image-recipe {
+        margin-top: 90px;
+        margin-left: 0;
+    }
+
+
+    .single-recipes .title {
         grid-column: 1/3;
         justify-items: center;
-        background-color: #262626;
-    
+        background-color: #a8b0cb;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1;
+
     }
-    
+
     .ingredients {
         grid-column: 1/3;
         justify-content: center;
         box-sizing: border-box;
     }
-    
+
     .ingredients h2 {
         color: #eee;
     }
-  }
-  
+}
