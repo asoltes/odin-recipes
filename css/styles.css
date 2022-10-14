@@ -153,9 +153,9 @@ p::selection {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-auto-rows: minmax(100px, auto);
-        gap: 5px;
+        gap: 2px;
         background-color: #eee ;
-        margin: auto;
+        margin: 0;
         box-sizing: content-box;
     }
     
